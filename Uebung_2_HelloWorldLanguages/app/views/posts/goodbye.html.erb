@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>goodbye world</title>
+
+	<link rel="stylesheet" href="assets/stylesheets/main.css" />
+
+</head>
+
+
+
+<body>
+      
+<div class="headline">
+  <h1>Goodbye from 'Hello, worlds!'</h1>
+</div>
+
+  <div class="wrapper">
+    <nav class=navbar>
+     <div>
+       <ul>
+         <li class="nav_links"><%= link_to "Startseite", root_path %></li>
+	 <!--  <li><a href="#">Tschüssseite</a></li> -->
+       </ul>
+     </div>
+   </nav>
+
+       <div class="hworlds">
+	<% 15.times do%>
+        <%= @goodbyeWorld %>
+	<%= @spacer %>
+	<%= @goodbyeSpain %>
+	<%= @spacer %>
+	<%= @goodbyeCzech %>
+	<%= @spacer %>
+	<%= @goodbyeItaly %>
+	<%= @spacer %>
+	<%= @goodbyeRusky %>
+	<%= @spacer %>
+	<%= @goodbyeJapan %>
+	<%= @spacer %>
+	<%= @goodbyeKorea%>
+	<%= @spacer %>
+	<%= @goodbyeGerma %>
+	<%= @spacer %>
+	<%= @goodbyeFrank %>
+	<%= @spacer %>
+	<%= @goodbyePolan %>
+	<%= @spacer %>
+	<% end %>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
